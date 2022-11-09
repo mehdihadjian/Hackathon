@@ -1,0 +1,55 @@
+
+body{
+    background-color: grey;
+}
+header nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: gray;
+    height: 30px;
+}
+header nav a {
+    color: beige;
+    margin-left: 5px;
+}
+main h1 {
+    color: bisque;
+}
+form{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 16px;
+    width: max-content
+    
+}
+
+a:hover{
+    color: bisque;
+}
+footer {
+    margin: 10px;
+    margin-left: 80px;
+    width: 25%;
+    height: 30px;
+    
+}
+@media(min-width: 600px){
+    form{
+        width: 50%;
+        height: 350px;
+
+    }
+    header nav{
+        width: 50%;
+        height: 50px;
+    }
+    footer{
+        width: 15%;
+         
+    }
+    
+}
+
+
